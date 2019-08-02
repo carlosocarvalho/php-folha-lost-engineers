@@ -6,7 +6,9 @@
             "email": "contato@carlosocavalho.com.br"
         }
     ],
-    "require": {},
+    "require": {
+        "php":">=7"
+    },
     "autoload": {
         "psr-4": {
             "LostEngineer\\":"src//"
