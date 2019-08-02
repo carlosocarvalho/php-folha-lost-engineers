@@ -1,0 +1,21 @@
+#!/bin/bash/php
+<?php
+
+
+require_once __DIR__.'/vendor/autoload.php';
+
+use LostEngineer\Navigator;
+use LostEngineer\SolarSystem;
+
+$totalEngineers = 75;
+$solarNames =  [
+    'SIRIUS',
+'LALANDE',
+'PROCION',
+'ALPHA',
+'CENTAURI',
+'BARNARD'];
+$whichDestine = new Navigator();
+$whichDestine
+->addQtyPeople($totalEngineers)
+->calculateNextDestine( new SolarSystem($solarNames));

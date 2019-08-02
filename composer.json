@@ -1,0 +1,15 @@
+{
+    "name": "carloscarvalho/php-folha-lost-engineers",
+    "authors": [
+        {
+            "name": "Carlos Carvalho",
+            "email": "contato@carlosocavalho.com.br"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "LostEngineer\\":"src//"
+        }
+    }
+}
